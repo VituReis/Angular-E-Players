@@ -1,0 +1,47 @@
+@font-face {
+    font-family:'Roboto-Regular' ;
+    src: url(/assets/fonts/Roboto/Roboto-Regular.ttf);  
+}
+
+@font-face {
+    font-family: 'roboto-medium';
+    src: url(/assets/fonts/Roboto/Roboto-Medium.ttf);
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+body{
+    background-color: #1c1e21;
+    font-family: 'Roboto-Regular';
+    color: white
+    
+}
+
+.container{
+    max-width: 1200px;
+}
+
+.card{
+    margin-bottom: 20px;
+}
+
+.container-grid{
+    max-width: 1200px;
+    /* border: 1px solid salmon; */
+    margin: 0 auto;
+}
+
+
+/* DESKTOP tablets 992px - 1199px */
+@media all and (max-width: 1199px) {
+
+    .container,
+    .container-grid {
+        max-width: 980px;
+    }
+}
